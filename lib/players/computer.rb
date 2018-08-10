@@ -12,7 +12,7 @@ module Players
       [6,4,2]
     ]
     def move(board)
-      
+      puts "#{token}"
       "#{rand(1..9)}"
     end
   end
