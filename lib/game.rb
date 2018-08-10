@@ -68,7 +68,9 @@ class Game
   def play
     while !over?
       turn
+      puts ""
       @board.display
+      puts ""
     end
     if won?
       puts "Congratulations #{winner}!"
